@@ -4,4 +4,6 @@ function hobby(hobbyOne, hobbyTwo, hobbyThree){
     return robbies
 }
 
-console.log(hobby('futebol', 'serie', 'cachaca'));
+hobby('futebol', 'serie', 'cachaca');
+
+module.exports = hobby
